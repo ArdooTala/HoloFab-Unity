@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d73c9b168857a84499118b3150b85d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camTransform: {fileID: 0}
 --- !u!223 &2271385839333936673
 Canvas:
   m_ObjectHideFlags: 0

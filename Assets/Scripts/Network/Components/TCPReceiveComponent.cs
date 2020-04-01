@@ -37,10 +37,10 @@ namespace HoloFab {
 
         // Unity Functions.
         void OnEnable() {
-            _ShowAndroidToastMessage("Hollo World . . .");
+            _ShowAndroidToastMessage("Hollo World . . . !");
             Thread.Sleep(1500);
-            _ShowAndroidToastMessage("Your IP is:\n" + NetworkUtilities.LocalIPAddress());
-            Thread.Sleep(3500);
+            _ShowAndroidToastMessage("Your IP is:\n\n" + NetworkUtilities.LocalIPAddress());
+            Thread.Sleep(5500);
             tcp = new TCPReceive(localPortOverride);
             tcp.TryStartConnection(this.localPortOverride);
 		}
